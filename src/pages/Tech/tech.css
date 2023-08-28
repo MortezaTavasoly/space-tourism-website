@@ -1,0 +1,69 @@
+.technology {
+  padding: 100px 0 0 100px;
+  height: 600px;
+}
+
+.technology h5 {
+  margin-top: -20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+.technology span {
+  font-family: Barlow Condensed;
+  color: rgb(122, 122, 122);
+}
+.technology .discription {
+  display: flex;
+  justify-content: space-between;
+}
+.technology .circle {
+  font-family: Bellefair-Regular;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: transparent;
+  font-size: 60px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid rgb(117, 117, 117);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+.technology .circle:hover {
+  border: 3px solid rgb(184, 184, 184);
+}
+.technology .active {
+  border: 3px solid white;
+  background-color: white;
+  color: black;
+}
+.technology .discription h3 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  font-family: Bellefair-Regular;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+.technology .discription p {
+  font-family: "Barlow Condensed";
+  line-height: 30px;
+  letter-spacing: 1px;
+  width: 500px;
+  color: rgb(208, 214, 249);
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.technology .images {
+  overflow: hidden;
+  margin-top: -100px;
+  width: 520px;
+  height: 530px;
+}

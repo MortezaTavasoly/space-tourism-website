@@ -1,0 +1,80 @@
+.crew {
+  padding: 50px 0 0 100px;
+}
+.crew-sides {
+  display: flex;
+  color: white;
+  font-family: Barlow Condensed;
+}
+.crew span {
+  font-family: Barlow Condensed;
+  color: rgb(122, 122, 122);
+}
+.crew h5 {
+  margin-top: -20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 150px;
+}
+
+.crew-sides strong {
+  font-family: Bellefair-Regular;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(139, 139, 139);
+}
+.crew-sides h3 {
+  font-family: Bellefair-Regular;
+  font-weight: 100;
+  width: 600px;
+  margin: 30px 0 35px;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.crew-sides .crew-info {
+  height: 600px;
+  position: relative;
+}
+.crew-sides p {
+  font-family: "Barlow Condensed";
+
+  position: absolute;
+  width: 450px;
+  line-height: 35px;
+  font-size: 20px;
+  color: rgb(208, 214, 249);
+  letter-spacing: 2px;
+}
+.crew-sides .crews {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  display: flex;
+}
+.crew-sides .circle {
+  width: 20px;
+  height: 20px;
+  margin: 100px 15px 0;
+  background-color: rgb(121, 121, 121);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+.crew-sides .active {
+  border: 0px;
+  background-color: white;
+}
+.crew-sides .circle:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+.crew-sides .images {
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+  width: 650px;
+  height: 700px;
+}

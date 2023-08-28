@@ -1,0 +1,84 @@
+.destination {
+  padding: 50px 100px;
+}
+.destination .image {
+  margin: 20px auto;
+}
+.destination h5 {
+  margin-top: -20px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+}
+.destination span {
+  color: rgb(122, 122, 122);
+}
+
+.destination .details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.destination .options {
+  display: flex;
+  color: white;
+}
+.destination .options p {
+  padding: 10px 0;
+  color: rgb(208, 214, 249);
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 30px 60px 0;
+}
+.destination .options .active {
+  margin: 0 30px 55px 0;
+}
+.destination .options p:hover {
+  margin: 0 30px 55px 0;
+  border-bottom: 5px solid rgb(175, 174, 174);
+}
+.destination .about h1 {
+  text-transform: uppercase;
+  color: white;
+  font-family: "Bellefair-Regular";
+  font-size: 100px;
+  font-weight: 100;
+}
+.destination .about p {
+  font-family: "Barlow Condensed";
+
+  margin-bottom: 50px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(208, 214, 249);
+}
+.destination .discription {
+  width: 450px;
+  margin-left: 100px;
+}
+.destination .line {
+  margin: 30px 0;
+  width: 480px;
+  height: 1px;
+  background-color: rgba(71, 71, 71, 0.4);
+}
+.destination .distance-time {
+  display: flex;
+}
+.destination .distance-time .time {
+  margin-left: 60px;
+}
+.destination .distance-time p {
+  color: rgb(208, 214, 249);
+  margin-bottom: 20px;
+}
+.destination .distance-time strong {
+  font-size: 40px;
+  font-family: Bellefair-Regular;
+  color: white;
+  font-weight: 100;
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(/public/fonts/BarlowCondensed-Regular.ttf);
+  font-family: "Bellefair-Regular";
+  src: url(/public/fonts/Bellefair-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Bellefair-Regular";
+  letter-spacing: 2.75px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  margin: 20px 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  cursor: pointer;
+}
+.line {
+  width: 450px;
+  z-index: 1;
+  margin-right: -150px;
+  height: 1px;
+  background-color: rgb(105, 105, 105, 0.5);
+}
+.links {
+  font-family: Bellefair-Regular;
+  padding-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(173, 173, 173, 0.1);
+  backdrop-filter: blur(10px);
+  width: 700px;
+  height: 80px;
+  margin: 20px 0 20px 20px;
+}
+.links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+  height: 70px;
+  color: rgb(235, 233, 233);
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+.links a:hover {
+  color: white;
+  border-bottom: 5px solid rgb(175, 174, 174);
+}
+.links a strong {
+  color: white;
+  margin-right: 5px;
+  font-weight: bolder;
+}
+.active {
+  color: white;
+  border-bottom: 5px solid white;
+}
